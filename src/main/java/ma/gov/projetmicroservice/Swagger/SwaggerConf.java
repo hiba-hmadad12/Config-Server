@@ -1,2 +1,14 @@
-package Config.Swagger;public class SwaggerConf {
+package ma.gov.projetmicroservice.Swagger;
+
+import io.swagger.v3.oas.models.OpenAPI;
+import io.swagger.v3.oas.models.info.Info;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class SwaggerConf {
+    @Bean
+    public OpenAPI getOpenApi() {
+        return new OpenAPI().info(new Info());
+    }
 }

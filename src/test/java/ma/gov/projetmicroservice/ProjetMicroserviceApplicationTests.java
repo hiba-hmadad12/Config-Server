@@ -1,4 +1,4 @@
-package ma.gov.projetmicroservice.projetmicroservice;
+package ma.gov.projetmicroservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
