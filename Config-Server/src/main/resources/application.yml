@@ -12,3 +12,8 @@ cloud:
         uri: https://github.com/hiba-hmadad12/Config-Server.git
         default-label: master
         clone-on-start: trues
+
+logging:
+  level:
+    org.springframework.cloud.config.server: debug
+    org.eclipse.jgit: debug
