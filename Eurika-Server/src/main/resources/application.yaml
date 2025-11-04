@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: dev
+
+  application:
+    name: eureka-server
+
+  config:
+    import: optional:config-server:http://localhost:8888

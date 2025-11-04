@@ -1,0 +1,7 @@
+spring:
+  profiles:
+    active: qua
+  application:
+    name: user-service
+  config:
+    import: optional:configserver:http://localhost:8888

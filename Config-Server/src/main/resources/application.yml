@@ -3,15 +3,14 @@ server:
 
 spring:
   application:
-   name: config-server
-
-cloud:
-  config:
-    server:
-      git:
-        uri: https://github.com/hiba-hmadad12/Config-Server.git
-        default-label: master
-        clone-on-start: trues
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/hiba-hmadad12/Config-Server.git
+          default-label: master
+          clone-on-start: true
 
 logging:
   level:
